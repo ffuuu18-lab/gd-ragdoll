@@ -179,6 +179,16 @@ Or just delete `x64\ragdoll.asi` and `x64\ragdoll.ini`. Nothing else was touched
 files beside the game, never modifies the game's own, and writes nothing into your saves. If you
 installed the overlay, remove `/basemods` from the launch options as well.
 
+## The rest of the documentation
+
+| file | for |
+| --- | --- |
+| `MAINTAINING.md` | changing the mod: file map, the working loop, how to tell a change worked, **what to do when Grim Dawn updates**, and the decisions not to undo |
+| `MECHANISM.md` | how the engine actually decides, how it was worked out, and the two approaches that failed |
+| `CHANGELOG.md` | what shipped when |
+| `THIRD_PARTY.md` | licences, and why the database overlay is a script rather than a file |
+| `requirements.txt` | Python packages the tools need — not needed to build or to play |
+
 ## Licence
 
 MIT — see `LICENSE`. Third-party components and the reasoning about Grim Dawn's own data are in

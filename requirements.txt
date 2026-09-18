@@ -1,0 +1,16 @@
+# Python packages the tools in this repo need. Python 3.8+.
+#
+#   pip install -r requirements.txt
+#
+# None of this is needed to USE the mod, and none of it is needed to BUILD it - build.bat needs
+# only the MSVC C++ toolchain. These are for the tooling:
+#
+#   pefile    audit_release.py, verify_patch.py, exports.py, gddis.py
+#   capstone  gddis.py only (disassembling a range while investigating the engine)
+#   lz4       arz.py / arzw.py, so data/build_db.py for the optional database overlay
+#
+# Versions are the ones this was developed against; anything newer should be fine.
+
+pefile>=2023.2.7
+capstone>=5.0.1
+lz4>=4.3.2
